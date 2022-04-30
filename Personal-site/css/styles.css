@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: #dbe2ef;
   margin: 0;
@@ -26,9 +31,37 @@ a {
   color: #3f72af;
 }
 
+hr {
+  border: 0.35rem solid;
+  border-style: dotted none none none;
+  width: 5%;
+  color: grey;
+  margin: 75px auto;
+}
+
 /******************** CLASS SELECTORS *******************/
 .top-container {
   padding-top: 100px;
+  background-color: #F9F7F7;
+}
+
+.middle-container {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #3f72af;
+  padding: 30px;
+}
+
+.bottom-container p {
+  margin-top: 30px;
+}
+
+.profile p {
+  width: 20%;
+  margin: 0 auto;
 }
 
 .profile-image {
@@ -51,9 +84,46 @@ a {
   margin-left: 30px;
 }
 
+.cloud-image-1 {
+  position: absolute;
+  left: 65%;
+}
+
+.cloud-image-2 {
+  position: absolute;
+  left: 25%
+}
+
 .skill-row {
   width: 40%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
+}
+
+.btn {
+  background-color: #112d4e;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  width: fit-content;
+  border-radius: 5%;
+  font-size: 1.25rem;
+  color: #DBE2EF;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.contact-me p {
+  margin: 60px 0;
+}
+
+.footer-link {
+  color: #112D4E;
+  margin: 0 50px;
+  font-size: 1.1rem;
 }
