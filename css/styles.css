@@ -50,6 +50,7 @@ hr {
 
 .bottom-container p {
   margin-top: 30px;
+  color: #fff;
 }
 
 .profile-image {
@@ -65,14 +66,14 @@ hr {
 }
 
 .footer-link {
-  color: #112D4E;
+  color: #fff;
   margin: 0 50px;
   font-size: 1.1rem;
 }
 
 #landing {
   padding-top: 120px;
-  background-image: url('../images/night.jpeg');
+  background-image: url('../images/night-1.jpg');
   background-size: cover;
 }
 
@@ -103,11 +104,7 @@ hr {
   margin: 50px 0;
 }
 
-.coding-image {
-  border-radius: 50%;
-}
-
-.puzzle-image {
+.skill-image {
   border-radius: 50%;
 }
 
@@ -115,7 +112,6 @@ hr {
   background-color: #112d4e;
   border-color: #112d4e;
   color: #DBE2EF;
-
 }
 
 
@@ -146,5 +142,17 @@ hr {
   }
   .wrapper div:nth-child(1) {
     display: table-footer-group; 
+  }
+
+  .skill-image {
+    border-radius: 50%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .contact-me p {
+    width: 80%;
+    margin: 30px auto 10px auto;
   }
 }
