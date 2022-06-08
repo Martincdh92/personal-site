@@ -146,6 +146,8 @@ hr {
   border-radius: 10px;
   border-color: #112d4e;
   margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
 }
 
 .project-row {
@@ -154,8 +156,18 @@ hr {
 }
 
 .project-image {
-  padding: 3%;
-  border-radius: 5%;
+  border-radius: 2%;
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  margin-bottom: 10px;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
 }
 
 .btn-outline-project {
