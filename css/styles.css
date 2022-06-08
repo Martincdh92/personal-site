@@ -53,6 +53,10 @@ hr {
   color: #fff;
 }
 
+.bottom-container-portfolio {
+  margin-top: 0px;
+}
+
 .profile-image {
   border-radius: 100%;
   height: 250px;
@@ -71,14 +75,26 @@ hr {
   font-size: 1.1rem;
 }
 
+.navbar-padding {
+  padding: 1% 15%;
+}
+
+.navbar-dark {
+  color: #fff;
+}
+
 #landing {
-  padding-top: 120px;
-  background-image: url('../images/night-1.jpg');
+  background-image: url("../images/night-1.jpg");
   background-size: cover;
 }
 
-#landing h1, #landing h2 {
+#landing h1,
+#landing h2 {
   color: #fff;
+}
+
+.landing-padding {
+  padding-top: 120px;
 }
 
 .img-cloud-1 {
@@ -91,7 +107,7 @@ hr {
   width: 150px;
   position: absolute;
   top: 40%;
-  right: 35%
+  right: 35%;
 }
 
 .img-mountain {
@@ -111,9 +127,59 @@ hr {
 .btn-contact {
   background-color: #112d4e;
   border-color: #112d4e;
-  color: #DBE2EF;
+  color: #dbe2ef;
 }
 
+.btn-contact:hover {
+  color: #fff;
+  background-color: #3f72af;
+  border-color: #3f72af;
+}
+
+#projects {
+  padding: 3% 15%;
+}
+
+.project-card {
+  max-width: 300px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #112d4e;
+  margin-bottom: 20px;
+}
+
+.project-row {
+  text-align: -webkit-center;
+  margin: 30px 0;
+}
+
+.project-image {
+  padding: 3%;
+  border-radius: 5%;
+}
+
+.btn-outline-project {
+  color: #3f72af;
+  border-color: #3f72af;
+}
+
+.btn-outline-project:hover {
+  color: #fff;
+  background-color: #3f72af;
+  border-color: #3f72af;
+}
+
+.navbar-blue {
+  color: #3f72af !important;
+}
+
+.navbar-white {
+  color: #fff !important;
+}
+
+.navbar-shadow {
+  box-shadow: 0 0 500px #112d4e;
+}
 
 /******************** MEDIA QUERIES *******************/
 @media only screen and (max-width: 530px) {
@@ -129,7 +195,7 @@ hr {
 
   .img-cloud-2 {
     top: 60%;
-    right: 5%
+    right: 5%;
   }
 
   hr {
@@ -137,11 +203,11 @@ hr {
   }
 
   .wrapper {
-    display: table; 
-    width: 100%; 
+    display: table;
+    width: 100%;
   }
   .wrapper div:nth-child(1) {
-    display: table-footer-group; 
+    display: table-footer-group;
   }
 
   .skill-image {
