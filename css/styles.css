@@ -233,4 +233,8 @@ hr {
     width: 80%;
     margin: 30px auto 10px auto;
   }
+
+  .footer-link {
+    display: block;
+  }
 }
